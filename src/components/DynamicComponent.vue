@@ -4,7 +4,7 @@
 
 <script>
 import { defineComponent, computed } from "vue"
-import { compile } from "esmBundler"
+import { compile } from "vue/dist/vue.esm-bundler.js"
 
 export default defineComponent({
   props: {
